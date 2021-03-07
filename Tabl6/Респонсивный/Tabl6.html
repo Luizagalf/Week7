@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table6</title>
+    <style>
+
+        .container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 10% 1fr 10%;
+        height: 100vh;
+        font-weight: bolder;
+        text-align: center;
+        }
+
+        body {
+        margin: 0;
+        padding: 0;
+        }
+
+        .header, .footer {
+        background-color: #e0e0e0;
+        grid-column: 1/3;        
+        }
+
+        .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+
+        .main {
+        background-color: #fef8e3;
+        }
+        
+        .containerm {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20%;
+        }
+
+        .cellm {
+        background-color: #fafafa;
+        border: 1px solid black;
+        padding: 3%;
+        }
+
+        .cellm3 {
+        background-color: #fafafa;
+        border: 1px solid black;
+        padding: 1.5%;
+        grid-column: 1/3;
+        }
+
+        p {
+        align-self: center;
+        padding: 1%;
+        font-size: 1vw;
+
+        }
+
+        .aside {
+        background-color: #ddeccb;
+        }
+
+        .containerf {
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10%;
+        font-weight: bolder;
+        justify-content: space-around;
+        align-items: center;
+        }
+
+        .cellf {
+        background-color: #fafafa;
+        border: 1px solid black;
+        padding: 6%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <p>Header</p>
+        </header>
+        <main class="main">
+            <p>Homework</p>
+            <div class="containerm">
+            <p class="cellm">Unit 1</p>
+            <p class="cellm">Unit 2</p>
+            <p class="cellm3">Unit 3</p>
+            </div>
+        </main>
+        <aside class="aside">
+            <p>Aside</p>
+        </aside>
+        <footer class="footer">
+            <div class="containerf">
+            <p class="cellf">Footer 1</p>
+            <p class="cellf">Footer 2</p>
+            <p class="cellf">Footer 3</p>
+            <p class="cellf">Footer 4</p>
+            </div>
+        </footer>
+
+</div>
+</body>
+
+</html>
