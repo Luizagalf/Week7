@@ -1,0 +1,232 @@
+.menu {
+    text-decoration: none;
+    color: black !important;
+    font-family: Work Sans;
+    font-style: normal;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+.text,
+.text4,
+.textf {
+    font-family: Work Sans;
+    font-style: normal;
+    color: black;
+}
+
+#cellmb {
+    font-family: Work Sans;
+    font-style: normal;
+    background: #F46752;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    animation-name: cellmb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cellmb {
+    from {
+        background-color: #F46752;
+    }
+
+    to {
+        background-color: #d32e09;
+    }
+}
+
+.cellm2b {
+    font-family: Work Sans;
+    font-style: normal;
+    color: #126F86;
+}
+
+.cellb,
+.cellfb {
+    background-color: white;
+}
+
+footer {
+    background-color: #F8F8F8;
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+    .container {
+        grid-template-rows: 5% 1fr 5%;
+        background-color: white;
+    }
+
+    header {
+        border-bottom: 4px solid #F8F8F8;
+        font-size: 1vw;
+    }
+
+    footer {
+        font-size: 1vw;
+    }
+
+    .cellb,
+    .cellfb {
+        height: 6vh;
+        width: 10vw;
+        font-size: 1vw;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: 80% 1fr;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1%;
+    }
+
+    .logo {
+        width: 80%;
+        max-width: 80%;
+    }
+
+    .imgm1,
+    .imgm2,
+    .imgm3,
+    .imgm4,
+    .imgm5 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .header1 {
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        align-items: center;
+        justify-content: space-between;
+        justify-self: flex-start;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 4fr 3fr 1fr;
+        justify-content: space-between;
+        justify-self: flex-start;
+    }
+
+    .header2 {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        align-items: center;
+        justify-self: flex-end;
+    }
+
+    h1 {
+        font-size: 2vw;
+    }
+
+    p {
+        font-size: 1vw;
+    }
+
+    main {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .main1 {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1%;
+    }
+
+    .maintext {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 90%;
+    }
+
+    .main0 {
+        background-color: #F9F5F2;
+    }
+
+    .main2 {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-content: space-around;
+        align-items: center;
+        justify-self: center;
+        padding: 4%;
+    }
+
+    .main3 {
+        display: grid;
+        grid-template-columns: 25% 25%;
+        justify-content: space-around;
+        align-items: center;
+        justify-self: center;
+        padding: 4%;
+    }
+
+    .main4 {
+        display: grid;
+        grid-template-rows: 40% 60%;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        padding: 4%;
+    }
+
+    .main4text {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .text4 {
+        justify-self: center;
+    }
+
+    .img4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-self: center;
+    }
+
+    .main5 {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-content: space-around;
+        align-items: center;
+        justify-self: center;
+        padding: 4%;
+    }
+
+    #cellmb {
+        font-size: 1vw;
+        height: 61px;
+        width: 220px;
+    }
+
+    .cellm2b {
+        font-size: 1vw;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 40% 30%;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1%;
+    }
+
+    .textf {
+        justify-self: flex-start;
+    }
+
+    .cellfb {
+        justify-self: flex-end;
+    }
+}
